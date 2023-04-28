@@ -13,6 +13,8 @@ import {ActivatedRoute} from "@angular/router";
 export class RecipeItemComponent implements OnInit {
   @Input() recipe: Recipe;
 
+  @Input() index:number;
+
 
   ngOnInit() {
   }
